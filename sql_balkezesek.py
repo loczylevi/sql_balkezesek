@@ -72,7 +72,7 @@ while True:
   else:
     bekeres = int(input("Hibás adat, kérek egy 1990 és 1999 közötti évszámot!: "))
 
-#6
+#6#
 
 atlag = cur.execute(f"SELECT AVG(weight) FROM balkezesek WHERE utolso LIKE '{bekeres}%'")
 
